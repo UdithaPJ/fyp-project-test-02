@@ -1,0 +1,12 @@
+{
+  "parquet_path": "C:\\Users\\Student\\Desktop\\Uditha\\fyp-project-test-02\\data\\GTEx_Analysis_2025-08-22_v11_RNASeQCv2.4.3_gene_tpm.parquet",
+  "shape": [
+    19788,
+    74628
+  ],
+  "mmap_path": "C:\\Users\\Student\\Desktop\\Uditha\\fyp-project-test-02\\out\\X_samples_x_features.float32.mmap",
+  "format": "wide (samples are columns, first column is feature id)",
+  "id_col": "Name",
+  "dtype": "float32",
+  "normalization": "CPM-like (1e6*counts/libsize) then log1p"
+}

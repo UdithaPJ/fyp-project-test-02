@@ -1,6 +1,8 @@
 .venv\Scripts\activate
 
 python scripts/02_wideparquet_to_memmap.py data/GTEx_Analysis_2025-08-22_v11_RNASeQCv2.4.3_gene_reads.parquet out
+###
+nice -n 15 ionice -c2 -n7 python scripts/02_wideparquet_to_memmap_fast2.py data/GTEx_Analysis_2025-08-22_v11_RNASeQCv2.4.3_exon_reads.parquet out
 
 (Start-Process -FilePath "python" -ArgumentList "scripts/02b_normalize_memmap.py out" -PassThru -NoNewWindow).PriorityClass = [System.Diagnostics.ProcessPriorityClass]::BelowNormal
 
