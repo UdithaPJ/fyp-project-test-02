@@ -1,0 +1,8 @@
+{
+  "algo": "mean_conditional_entropy",
+  "seconds_load_graph": 0.05807304382324219,
+  "seconds_compute": 0.21217942237854004,
+  "seconds_total": 0.2702524662017822,
+  "value": 3.4894557004659363,
+  "num_labels": 50
+}

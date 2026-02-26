@@ -1,0 +1,16 @@
+{
+  "stage": "csr_build",
+  "mode": "parallel",
+  "workers": 4,
+  "k": 50,
+  "feat_block": 128,
+  "sample_block": 256,
+  "n_samples": 74628,
+  "n_features": 19788,
+  "nnz": 1718642,
+  "seconds_norms": 3.1283650398254395,
+  "seconds_blocks": 242.60422158241272,
+  "seconds_merge_save": 1.0147011280059814,
+  "seconds_total": 246.74734234809875,
+  "output_graph": "/home/admin-account/fyp-project-test-02/out/feature_graph_top50_csr_parallel_w4.npz"
+}

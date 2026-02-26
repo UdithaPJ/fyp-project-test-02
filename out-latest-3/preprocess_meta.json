@@ -1,0 +1,13 @@
+{
+  "parquet_path": "C:\\Users\\Student\\Desktop\\Uditha\\fyp-project-test-02\\data\\GTEx_Analysis_2025-08-22_v11_RNASeQCv2.4.3_exon_reads.parquet",
+  "shape": [
+    432367,
+    19788
+  ],
+  "mmap_path": "/home/admin-account/fyp-project-test-02/out/X_features_x_samples.float32.mmap",
+  "format": "wide (samples are columns, first column is feature id)",
+  "orientation": "features_by_samples",
+  "id_col": "Name",
+  "dtype": "float32",
+  "normalization": "CPM-like (1e6*counts/libsize) then log1p"
+}

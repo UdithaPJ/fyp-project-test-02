@@ -1,0 +1,12 @@
+{
+  "mode": "parallel",
+  "workers": 4,
+  "k": 50,
+  "feat_block": 128,
+  "sample_block": 256,
+  "n_samples": 432367,
+  "n_features": 19788,
+  "nnz": 1744854,
+  "seconds_total": 3873.358315229416,
+  "output_graph": "C:\\Users\\Student\\Desktop\\Uditha\\fyp-project-test-02\\out\\feature_graph_top50_csr_parallel_w4.npz"
+}

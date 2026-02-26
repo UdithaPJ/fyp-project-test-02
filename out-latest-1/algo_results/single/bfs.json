@@ -1,0 +1,8 @@
+{
+  "algo": "bfs",
+  "seconds_load_graph": 0.05933380126953125,
+  "seconds_compute": 0.38184165954589844,
+  "seconds_total": 0.4411754608154297,
+  "source": 0,
+  "reachable": 19461
+}

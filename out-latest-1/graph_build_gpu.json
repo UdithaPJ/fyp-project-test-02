@@ -1,0 +1,16 @@
+{
+  "stage": "csr_build",
+  "mode": "gpu",
+  "k": 50,
+  "q_feat_block": 128,
+  "c_feat_block": 1024,
+  "sample_block": 256,
+  "n_samples": 74628,
+  "n_features": 19788,
+  "nnz": 1718636,
+  "seconds_norms": 1.1211402416229248,
+  "seconds_topk_compute": 305.7395224571228,
+  "seconds_csr_build_save": 1.132983922958374,
+  "seconds_total": 307.99367022514343,
+  "output_graph": "/home/admin-account/fyp-project-test-02/out/feature_graph_top50_csr_gpu.npz"
+}

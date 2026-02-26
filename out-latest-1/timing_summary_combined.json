@@ -1,0 +1,112 @@
+{
+  "inputs": {
+    "build_w1": "/home/admin-account/fyp-project-test-02/out/graph_build_parallel_w1.json",
+    "build_wN": "/home/admin-account/fyp-project-test-02/out/graph_build_parallel_w4.json",
+    "cpu_single": "/home/admin-account/fyp-project-test-02/out/algo_results/single/summary.json",
+    "cpu_parallel": "/home/admin-account/fyp-project-test-02/out/algo_results/parallel/summary.json",
+    "gpu": "/home/admin-account/fyp-project-test-02/out/gpu_results/gpu_results.json"
+  },
+  "csr_build": {
+    "w1": {
+      "total": 631.2249004840851,
+      "norms": 3.1124894618988037,
+      "blocks": 627.0898129940033,
+      "merge_save": 1.02254056930542
+    },
+    "wN": {
+      "total": 246.74734234809875,
+      "norms": 3.1283650398254395,
+      "blocks": 242.60422158241272,
+      "merge_save": 1.0147011280059814
+    }
+  },
+  "algorithms": {
+    "bfs": {
+      "cpu_single": {
+        "load": 0.05933380126953125,
+        "compute": 0.38184165954589844,
+        "total": 0.4411754608154297
+      },
+      "cpu_parallel": {
+        "load": 0.15018630027770996,
+        "compute": 0.3975071907043457,
+        "total": 0.5476934909820557
+      },
+      "gpu": {
+        "transfer_share": 0.003722953796386719,
+        "compute": 0.005998496055603027,
+        "total": 0.009721449851989746
+      }
+    },
+    "hits": {
+      "cpu_single": {
+        "load": 0.061014413833618164,
+        "compute": 1.0670578479766846,
+        "total": 1.1280722618103027
+      },
+      "cpu_parallel": {
+        "load": 0.14412832260131836,
+        "compute": 1.132279396057129,
+        "total": 1.2764077186584473
+      },
+      "gpu": {
+        "transfer_share": 0.003722953796386719,
+        "compute": 0.1518131866455078,
+        "total": 0.1555361404418945
+      }
+    },
+    "mean_conditional_entropy": {
+      "cpu_single": {
+        "load": 0.05807304382324219,
+        "compute": 0.21217942237854004,
+        "total": 0.2702524662017822
+      },
+      "cpu_parallel": {
+        "load": 0.1434931755065918,
+        "compute": 0.22272968292236328,
+        "total": 0.3662228584289551
+      },
+      "gpu": {
+        "transfer_share": 0.003722953796386719,
+        "compute": 0.00900710391998291,
+        "total": 0.01273005771636963
+      }
+    },
+    "pagerank": {
+      "cpu_single": {
+        "load": 0.06108403205871582,
+        "compute": 0.06665229797363281,
+        "total": 0.12773633003234863
+      },
+      "cpu_parallel": {
+        "load": 0.1529548168182373,
+        "compute": 0.08054089546203613,
+        "total": 0.23349571228027344
+      },
+      "gpu": {
+        "transfer_share": 0.003722953796386719,
+        "compute": 0.010923616409301758,
+        "total": 0.014646570205688478
+      }
+    },
+    "rwr": {
+      "cpu_single": {
+        "load": 0.05945849418640137,
+        "compute": 0.04203152656555176,
+        "total": 0.10149002075195312
+      },
+      "cpu_parallel": {
+        "load": 0.10971236228942871,
+        "compute": 0.049139976501464844,
+        "total": 0.15885233879089355
+      },
+      "gpu": {
+        "transfer_share": 0.003722953796386719,
+        "compute": 0.00608512020111084,
+        "total": 0.009808073997497559
+      }
+    }
+  },
+  "gpu_transfer_total": 0.018614768981933594,
+  "gpu_load_csr_cpu": 0.06117701530456543
+}
